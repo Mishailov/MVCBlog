@@ -1,0 +1,12 @@
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\bin\Debug\net5.0\CommonLib.deps.json
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\bin\Debug\net5.0\CommonLib.dll
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\bin\Debug\net5.0\ref\CommonLib.dll
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\bin\Debug\net5.0\CommonLib.pdb
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.csproj.AssemblyReference.cache
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.AssemblyInfoInputs.cache
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.AssemblyInfo.cs
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.csproj.CoreCompileInputs.cache
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.dll
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\ref\CommonLib.dll
+C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.pdb

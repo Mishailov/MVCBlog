@@ -1,0 +1,18 @@
+﻿@model IEnumerable<MyCustomTestBlog.Models.User>
+<form asp-controller="Account" asp-action="AllUsers">
+    <input type="text" name="name"/>
+    <input type="submit" value="filter" />
+</form>
+<table>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(inItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Page", "Page", new { Id = item.Id})
+                    </td>
+                </tr>
+            }
+</table>

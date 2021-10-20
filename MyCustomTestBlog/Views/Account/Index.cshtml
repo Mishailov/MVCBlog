@@ -1,0 +1,51 @@
+﻿@model MyCustomTestBlog.Models.User
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>My page</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.E_Mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.E_Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.Password)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+@await Html.PartialAsync("CreatePost", Model.Posts.FirstOrDefault(x => x.User == Model))
+
+@if (Model.Posts != null)
+{
+    @await Html.PartialAsync("Post", Model.Posts)
+}
+

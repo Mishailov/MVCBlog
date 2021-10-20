@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MyCustomTestBlog.Models.Post>
+
+    <div class="container">
+        <table class="table col-lg-6">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            Post form: @Html.DisplayFor(modelItem => item.User.UserName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </td>
+                        <td>
+                            @Html.ActionLink("AddComment", "CreateComment", new { PostId = item.Id })
+                        </td>
+                    </tr>
+                        @if (item.Comments != null)
+                        {
+                            @foreach (var item1 in item.Comments)
+                            {
+                            <tr>
+                                <td>
+                                    &ensp; Comment from: @Html.DisplayFor(modelItem => item1.User.UserName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item1.Message)
+                                </td>
+                            </tr>
+                            }
+                        }
+                }
+            </tbody>
+        </table>
+    </div>
+

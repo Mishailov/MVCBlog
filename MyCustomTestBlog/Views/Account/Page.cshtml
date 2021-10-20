@@ -1,0 +1,31 @@
+﻿@model MyCustomTestBlog.Models.User
+
+<h1>@Html.DisplayFor(model => model.UserName)</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.E_Mail)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.E_Mail)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@if (Model.Posts != null)
+{
+    @await Html.PartialAsync("Post", Model.Posts)
+}
