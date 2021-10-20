@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj",
+      "projectUniqueName": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj",
       "projectName": "CommonLib",
-      "projectPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj",
+      "projectPath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj",
       "packagesPath": "C:\\Users\\Uladzislau_Mikhailau\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\obj\\",
+      "outputPath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Uladzislau_Mikhailau\\AppData\\Roaming\\NuGet\\NuGet.Config",

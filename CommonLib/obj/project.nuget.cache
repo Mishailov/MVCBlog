@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tbwzbcziGrXZSXXu8N0NFDkYCR1L9FZDcgjTHNergD0QRVaTXdikpeG2gOBREX9o//34Z8e3Ex8vraH+iqaIfA==",
+  "dgSpecHash": "suMa99MxuzOtJzVfNpqh07S8tm9f3VUWX4cLLUPw/zzpKZSkhfBQjUiWwFkW/llsnEeS64Q28QpxJmdbXeD9rw==",
   "success": true,
-  "projectFilePath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj",
+  "projectFilePath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

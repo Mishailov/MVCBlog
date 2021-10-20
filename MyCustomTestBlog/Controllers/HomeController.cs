@@ -36,16 +36,12 @@ namespace MyCustomTestBlog.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(User model)
         {
-            if (ModelState.IsValid)
+            if (db.GetItems().Where(x => x.E_Mail == model.E_Mail).Count() == 0)
             {
-                if (db.GetItems().Where(x => x.E_Mail == model.E_Mail).Count() == 0)
-                {
-                    db.Create(model);
-                    await Authenticate(model.E_Mail);
-                    return RedirectToAction("Index", "Account");
-                }
+                db.Create(model);
+                await Authenticate(model.E_Mail);
+                return RedirectToAction("Index", "Account");
             }
-            ModelState.AddModelError("", "error registration");
 
             return View();
         }
@@ -58,17 +54,14 @@ namespace MyCustomTestBlog.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(User model)
         {
-            if (ModelState.IsValid)
+            var newUser = db.GetItems().FirstOrDefault(x => x.E_Mail == model.E_Mail
+                && x.Password == model.Password);
+            if (newUser != null)
             {
-                var newUser = db.GetItems().FirstOrDefault(x => x.E_Mail == model.E_Mail
-                    && x.Password == model.Password);
-                if (newUser != null)
-                {
-                    await Authenticate(model.E_Mail);
-                    return RedirectToAction("Index", "Account");
-                }
-                ModelState.AddModelError("", "error sign in");
+                await Authenticate(model.E_Mail);
+                return RedirectToAction("Index", "Account");
             }
+
             return View();
         }
 

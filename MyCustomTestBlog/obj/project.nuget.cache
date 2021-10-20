@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FoP26B3AAOnxWooq6y2hNXoOyzZfV0Jj6RmOldWNMEBPyVmwg5jF86pTxdB/piUdgc5SPwDrwSfJqzv1Vz1CNg==",
+  "dgSpecHash": "4z61yFoY9uR28taV9J5PAb+uSvIFAXY5L73Yc2f0m4lwf917YgtHibMRvR515UMHuVKZJTfB4+q9Yhsz3UBOsQ==",
   "success": true,
-  "projectFilePath": "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
+  "projectFilePath": "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Uladzislau_Mikhailau\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Uladzislau_Mikhailau\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

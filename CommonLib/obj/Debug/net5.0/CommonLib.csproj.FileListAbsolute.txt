@@ -10,3 +10,15 @@ C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.csproj.C
 C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.dll
 C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\ref\CommonLib.dll
 C:\ProjectForImpr\MyCustomTestBlog\CommonLib\obj\Debug\net5.0\CommonLib.pdb
+C:\ProjectForImpr\MVCBlog\CommonLib\bin\Debug\net5.0\CommonLib.deps.json
+C:\ProjectForImpr\MVCBlog\CommonLib\bin\Debug\net5.0\CommonLib.dll
+C:\ProjectForImpr\MVCBlog\CommonLib\bin\Debug\net5.0\ref\CommonLib.dll
+C:\ProjectForImpr\MVCBlog\CommonLib\bin\Debug\net5.0\CommonLib.pdb
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.csproj.AssemblyReference.cache
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.AssemblyInfoInputs.cache
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.AssemblyInfo.cs
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.csproj.CoreCompileInputs.cache
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.dll
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\ref\CommonLib.dll
+C:\ProjectForImpr\MVCBlog\CommonLib\obj\Debug\net5.0\CommonLib.pdb

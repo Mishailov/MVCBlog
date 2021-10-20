@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj": {}
+    "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj": {}
   },
   "projects": {
-    "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj": {
+    "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj",
+        "projectUniqueName": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj",
         "projectName": "CommonLib",
-        "projectPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj",
+        "projectPath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj",
         "packagesPath": "C:\\Users\\Uladzislau_Mikhailau\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\obj\\",
+        "outputPath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uladzislau_Mikhailau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj": {
+    "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
+        "projectUniqueName": "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
         "projectName": "MyCustomTestBlog",
-        "projectPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
+        "projectPath": "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\MyCustomTestBlog.csproj",
         "packagesPath": "C:\\Users\\Uladzislau_Mikhailau\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\MyCustomTestBlog\\obj\\",
+        "outputPath": "C:\\ProjectForImpr\\MVCBlog\\MyCustomTestBlog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uladzislau_Mikhailau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj": {
-                "projectPath": "C:\\ProjectForImpr\\MyCustomTestBlog\\CommonLib\\CommonLib.csproj"
+              "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj": {
+                "projectPath": "C:\\ProjectForImpr\\MVCBlog\\CommonLib\\CommonLib.csproj"
               }
             }
           }
